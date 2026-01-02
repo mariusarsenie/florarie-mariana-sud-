@@ -1,0 +1,108 @@
+#Floraria-mariana-sud-
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florărie – Urmărește-ne</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* FUNDAL CU PATTERN FLORI + INIMI */
+    background-image: url("images/fundal-flori.png");
+    background-size: 1080px;
+    background-color: #fdf7fa;
+}
+
+/* CARD CENTRAL */
+.card {
+    background: rgba(255, 255, 255, 0.94);
+    padding: 40px 30px;
+    border-radius: 22px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    text-align: center;
+    max-width: 360px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #7a3d52;
+}
+
+p {
+    color: #8a6a76;
+    margin-bottom: 30px;
+}
+
+/* BUTOANE */
+.btn {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366);
+}
+
+.tiktok {
+    background: #000;
+}
+
+.facebook {
+    background: #1877f2; /* albastru Facebook */
+}
+
+.flower {
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="flower">🌹</div>
+    <h1> Floraria Mariana SUD</h1>
+    <p> aici ne puteti contacta ❤️ </p>
+
+    <a class="btn instagram"
+       href="https://www.instagram.com/livram_florii_la_domiciliu_?igsh=OG5vNHdqN2Q0eXk1"
+       target="_blank">
+       Instagram
+    </a>
+
+    <a class="btn tiktok"
+       href="https://www.tiktok.com/@flower_shop_focsani?_r=1&_t=ZN-92jsa740kSs"
+       target="_blank">
+       TikTok
+    </a>
+
+    <a class="btn facebook"
+       href="https://www.facebook.com/share/1CtCdopk27/"
+       target="_blank">
+       Facebook
+    </a>
+</div>
+
+</body>
+</html>
